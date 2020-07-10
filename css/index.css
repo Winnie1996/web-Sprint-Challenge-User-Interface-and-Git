@@ -33,17 +33,13 @@ footer, header, hgroup, menu, nav, section {
 .LambdaContainer{
     margin: 2% 0 0 30%;
 }
-.Lambda{
-    border:1px solid   black;
-    
-}
+
 
 .BigContainer{
     margin:0 0 0 40%;
 }
 .navContainer{
     width:500px;
-    border:1px solid black;
     display:flex;
     justify-content: space-evenly;
 
@@ -58,7 +54,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .HeaderImgs{
-    margin:2% 0 20px;
+    margin:2% 0 0 505px;
 }
 
 
@@ -147,6 +143,38 @@ p {
 }
 
 
+.Strat1{
+    width:400px;
+}
+
+.Work1{
+    width:400px;
+}
+
+.StratWork{
+    display:flex;
+}
+
+.Work2{
+    width:400px;
+}
+
+.Work2Collab{
+    display:flex;
+}
+
+.Collab{
+    Width:400px;
+}
+
+.Together{
+    margin:5% 0 2% 0;
+    
+}
+
+.AboutP{
+    margin:4% 0 4% 0%;
+}
 
 
 
@@ -207,6 +235,7 @@ p {
 
 footer {
     width: 100%;
+    margin:2% 0 0 0;
     background: black;
 }
 
