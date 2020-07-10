@@ -42,9 +42,13 @@ footer, header, hgroup, menu, nav, section {
     width:500px;
     display:flex;
     justify-content: space-evenly;
-
+    
 }
 
+.navContainer a{
+    text-decoration: none;
+    color:black
+}
 .Strategy{
     display:flex;
 }
@@ -157,6 +161,7 @@ p {
 
 .Work2{
     width:400px;
+    margin:4% 0 0 0;
 }
 
 .Work2Collab{
@@ -165,6 +170,7 @@ p {
 
 .Collab{
     Width:400px;
+    margin:4% 0 0 0;
 }
 
 .Together{
