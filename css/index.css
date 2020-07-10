@@ -29,16 +29,80 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+
+.LambdaContainer{
+    margin: 2% 0 0 30%;
+}
 .Lambda{
-    margin: 2% 0 4% 28%;
+    border:1px solid   black;
+    
+}
+
+.BigContainer{
+    margin:0 0 0 40%;
+}
+.navContainer{
+    width:500px;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.Strategy{
+    display:flex;
 }
 
 .HeaderImg{
-    margin:10% 0 2% 0; 
+    margin:2% 0 20px;
 }
 
-    
+.HeaderImgs{
+    margin:2% 0 20px;
 }
+
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -81,6 +145,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+
+
+
 
 .top-content {
     display: flex;
