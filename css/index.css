@@ -28,6 +28,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.Lambda{
+    margin: 2% 0 4% 28%;
+}
+
+.HeaderImg{
+    margin:10% 0 2% 0; 
+}
+
+    
+}
 body {
 	line-height: 1;
 }
