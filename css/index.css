@@ -155,47 +155,44 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
-}
-
-
-.Strat1{
-    width:400px;
-}
-
-.Work1{
-    width:400px;
-}
-
-.StratWork{
     display:flex;
-}
-
-.Work2{
-    width:400px;
-    margin:4% 0 0 0;
-}
-
-.Work2Collab{
-    display:flex;
-}
-
-.Collab{
-    Width:400px;
-    margin:4% 0 0 0;
-}
-
-.Together{
-    margin:5% 0 2% 0;
+    flex-wrap: wrap;
     
 }
 
-.AboutP{
-    margin:4% 0 4% 0%;
+.Pics{
+    display:flex;
+    flex-wrap: wrap;
+    width:45%;
+    margin-left:20px;
+    margin-top:20px;
+    
 }
 
+.ImgContainer{
+    display:flex;
+    flex-wrap: wrap;
+  
+}
 
+.ImgContainer p,h2{
+    margin-top:20px
+}
+
+.AboutP{
+    width:800px;
+    padding:20 0 10px 0;
+    margin-left:30px;
+    
+}
+
+.Together{
+    width:800px;
+    margin-left:500px;
+    margin-top:50px;
+}
 
 .top-content {
     display: flex;
@@ -214,6 +211,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    box1: color teal;
 }
 
 .middle-content h2 {
@@ -222,6 +220,7 @@ p {
 }
 
 .middle-content .boxes {
+    width:900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -255,11 +254,19 @@ p {
 footer {
     width: 100%;
     margin:2% 0 0 0;
+    margin-left:0px;
+    background: black;
+}
+
+.Footer{
+    width: 40%;
+    margin:2% 0 0 0;
+    margin-left:500px;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
