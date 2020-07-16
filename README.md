@@ -32,32 +32,32 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say? I would describe it as HTML with meaning. Using <H2> for headers or <P> for paragraphs add life to what you're coding. Non semantics like <div> are boring.
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```. First difference is that display:block doesn't have line breaks while display:inline does, meaning they can sit side-by-side. Second is inline-block: margins/paddings are respected but display:inline are not.
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model? The four are content edge, padding edge, border edge, and margin edge.
+3. What are the 4 areas of the box model?
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```? Cross Axis
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers. Git is valuable because a team can come together to share the code they each have done and can compare with one another on what they did and how they did it. It keeps things organized and well maintained by adding in updates and comments that others can look at and examine.
+5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [X] Create a forked copy of this project.
-- [X] Add your Team Lead as collaborator on Github.
-- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [X] Push commits: git push -u origin `<firstName-lastName>`.
+- [ ] Create a forked copy of this project.
+- [ ] Add your Team Lead as collaborator on Github.
+- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [X] Add your Team Lead as a reviewer on the pull-request
-- [X] Your Team Lead will count the project as complete by merging the branch back into master.
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Add your Team Lead as a reviewer on the pull-request
+- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
 
@@ -69,32 +69,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [X] Build the HTML and CSS to create the missing navigation and header.
-*!! Create a Header that contains NavBar and Logo and Hero Image
-* [X] Link the `About` navigation item to the [about.html](about.html) page
+* [ ] Build the HTML and CSS to create the missing navigation and header.
+* [ ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [X] box1: `teal`
-* [X] box2: `gold`
-* [X] box3: `cadetblue`
-* [X] box4: `coral`
-* [X] box5: `crimson`
-* [X] box6: `forestgreen`
-* [X] box7: `darkorchid`
-* [X] box8: `hotpink`
-* [X] box9: `indigo`
-* [X] box10: `dodgerblue`
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [X] Copy and paste your home page navigation and header into the about page
-!!! About Page and Home Page should have identical headers except image.
-* [X] Update the header image with the about page image
-* [X] Link the `Home` navigation item back to the `index.html` page.
-* [X] Build the rest of the about page layout to match the design
+* [ ] Copy and paste your home page navigation and header into the about page
+* [ ] Update the header image with the about page image
+* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

@@ -28,94 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-
-
-.Images{
-margin:1% 0 0 19%;
-
-}
-
-.Images{
-    width:60%;
-    display:flex;
-    justify-content: space-around;
-}
-
-.Images a{
-    margin: 0 65px 0 0;
-    text-decoration: none;
-    color: black;
-    
-}
-
-.Images img{
-    margin:0 5% 0 0;
-}
-
-
-
-.Strategy{
-    display:flex;
-}
-
-.HeaderImg{
-    margin:0 auto;
-}
-
-body .ImageBox{
-    display:flex;
-    justify-content:center;
-    width:100%;
-    margin:1% 0 2% 0;
-    
-}
-.HeaderImgs{
-    margin:0 auto;
-}
-
-
-#box1{
-    background-color: teal;
-}
-
-#box2{
-    background-color: gold;
-}
-
-#box3{
-    background-color: cadetblue;
-}
-
-#box4{
-    background-color: coral;
-}
-
-#box5{
-    background-color: crimson;
-}
-
-#box6{
-    background-color: forestgreen;
-}
-
-#box7{
-    background-color: darkorchid;
-}
-
-#box8{
-    background-color: hotpink;
-}
-
-#box9{
-    background: indigo;
-}
-
-#box10{
-    background: dodgerblue;
-}
-
-
 body {
 	line-height: 1;
 }
@@ -150,48 +62,124 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
+
+
+/* Logo and Hero Image with Nav */
+
+header{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.Lambda{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:800px;
+    margin:2vh 0 2vh 0;
+}
+
+.navigation{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Box Colors */
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
+/* About Page Remake */
+
+.AboutMe{
+    height:14vh;
+    border-bottom: 2px dotted black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.Together{
+    height:14vh;
+    margin-left: 3vh;
+
+    
+}
+
+.Images-Container{
+    width:45%;
+    height:1vh;
+    
+}
+
+.SectionCards{
+    height:90vh;
+    width:810px;
+    margin-top: 4%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+}
+
+.Images-Container h2{
+    margin-top: 3%;
+}
+
+.learn-btn{
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
+    height:30px;
+    border-bottom: 2px dotted black;
+}
+
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-
-.Pics{
-    display:flex;
-    flex-wrap: wrap;
-    width:45%;
-    margin-left:20px;
-    margin-top:20px;
-    
-}
-
-.ImgContainer{
-    display:flex;
-    flex-wrap: wrap;
-  
-}
-
-.ImgContainer p,h2{
-    margin-top:20px
-}
-
-.AboutP{
-    width:800px;
-    padding:20 0 10px 0;
-    margin-left:30px;
-    
-}
-
-.Together{
-    width:800px;
-    margin-left:500px;
-    margin-top:50px;
 }
 
 .top-content {
@@ -211,7 +199,6 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    box1: color teal;
 }
 
 .middle-content h2 {
@@ -220,7 +207,6 @@ p {
 }
 
 .middle-content .boxes {
-    width:900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -229,7 +215,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -253,20 +238,11 @@ p {
 
 footer {
     width: 100%;
-    margin:2% 0 0 0;
-    margin-left:0px;
-    background: black;
-}
-
-.Footer{
-    width: 40%;
-    margin:2% 0 0 0;
-    margin-left:500px;
     background: black;
 }
 
 footer nav {
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
