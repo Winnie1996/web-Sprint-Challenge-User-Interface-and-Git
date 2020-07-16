@@ -62,6 +62,117 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
+
+
+/* Logo and Hero Image with Nav */
+
+header{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.Lambda{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:800px;
+    margin:2vh 0 2vh 0;
+}
+
+.navigation{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Box Colors */
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
+/* About Page Remake */
+
+.AboutMe{
+    height:14vh;
+    border-bottom: 2px dotted black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+
+.Together{
+    height:14vh;
+    margin-left: 3vh;
+
+    
+}
+
+.Images-Container{
+    width:45%;
+    height:1vh;
+    
+}
+
+.SectionCards{
+    height:90vh;
+    width:810px;
+    margin-top: 4%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+}
+
+.Images-Container h2{
+    margin-top: 3%;
+}
+
+.learn-btn{
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
+    height:30px;
+    border-bottom: 2px dotted black;
+}
+
 p {
     line-height: 1.4;
 }
@@ -104,7 +215,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
